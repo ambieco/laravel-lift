@@ -1,3 +1,18 @@
+# Laravel Lift
+
+This is a fork of [WendellAdriel/laravel-lift](https://github.com/WendellAdriel/laravel-lift) with added support for Laravel 12.
+
+## Changes from the original
+
+- Added support for Laravel 12 in the composer.json dependencies
+- Updated package name to ambieco/laravel-lift
+
+## Original Description
+
+Take your Eloquent Models to the next level.
+
+For full documentation, please refer to the [original repository](https://github.com/WendellAdriel/laravel-lift).
+
 <div align="center">
     <img src="https://github.com/WendellAdriel/laravel-lift/raw/main/art/laravel-lift-banner.png" alt="Lift for Laravel" height="400"/>
     <p>
@@ -18,12 +33,12 @@
 It lets you create public properties in Eloquent Models that match your table schema. This makes your models easier to
 read and work with in any IDE.
 
-The package intelligently uses PHP 8’s attributes, and gives you complete freedom in setting up your models. For
+The package intelligently uses PHP 8's attributes, and gives you complete freedom in setting up your models. For
 instance, you can put validation rules right into your models - a simple and easy-to-understand arrangement compared
 to a separate request class. Plus, all these settings are easily reachable through handy new methods.
 
 With a focus on simplicity, **Lift** depends on **Eloquent Events** to work. This means the package fits easily into your
-project, without needing any major changes (unless you’ve turned off event triggering).
+project, without needing any major changes (unless you've turned off event triggering).
 
 ## Documentation
 [![Docs Button]][Docs Link] [![DocsRepo Button]][DocsRepo Link]
